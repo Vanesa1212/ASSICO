@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Assiscor</string>
+    <string name="btn1">Boton1</string>
+    <string name="btn2">Boton2</string>
+    <string name="t1">ASSISCOR</string>
+
+    //login
+    <string name="LOGIN">Iniciar sesion</string>
+    <string name="edt_email">Ingrese su correo</string>
+    <string name="edt_password">Ingrese su contraseña</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="btn_GOOGLE">Continue con Google</string>
+    <string name="btn_Cuenta">Crear Cuenta</string>
+
+    //Crearcuen
+    <string name="crear">Crear cuenta</string>
+    <string name="edt_nombres">Nombres</string>
+    <string name="edt_apellidos">Apellidos</string>
+    <string name="edt_Celular">Celular</string>
+    <string name="btn_registrar">Crear cuenta</string>
+
+    //Recuperar
+
+    <string name="recuperar">Recuperar contraseña</string>
+    <string name="btn_recuperar">Recuperar contraseña</string>
+
+
+</resources>
