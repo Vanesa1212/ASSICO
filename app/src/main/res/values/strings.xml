@@ -11,6 +11,7 @@
     <string name="btn_login">Ingresar</string>
     <string name="btn_GOOGLE">Continue con Google</string>
     <string name="btn_Cuenta">Crear Cuenta</string>
+    <string name="r_pass">Recuperar contraseña</string>
 
     //Crearcuen
     <string name="crear">Crear cuenta</string>

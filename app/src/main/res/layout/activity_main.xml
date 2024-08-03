@@ -32,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="173dp"
         android:layout_marginBottom="30sp"
+        android:importantForAccessibility="no"
         app:srcCompat="@drawable/logooo" />
 
     <EditText
@@ -43,6 +44,7 @@
         android:ems="10"
         android:hint="@string/edt_email"
         android:inputType="textEmailAddress"
+        android:minHeight="48dp"
         android:textColorHint="@color/black"
         android:textStyle="bold" />
 
@@ -56,13 +58,14 @@
         android:ems="10"
         android:hint="@string/edt_password"
         android:inputType="textPassword"
+        android:minHeight="48dp"
         android:textColorHint="@color/black"
         android:textStyle="bold" />
 
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn10"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -83,7 +86,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_Cuenta"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -92,6 +95,18 @@
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_recupe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/r_pass"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
 
 
 </LinearLayout>
